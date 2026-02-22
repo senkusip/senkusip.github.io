@@ -4,5 +4,3 @@ plugins:
   - jekyll-seo-tag
 
 url: "https://senkusip.github.io"
-
-base-url: ""
