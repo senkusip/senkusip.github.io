@@ -1,5 +1,11 @@
-.current {
-    color: green;
+#nav-links {
+    text-decoration: none;
+    color:black;
+}
+
+
+#nav-links.current {
+    color: green     ;
 }
 
 body {
@@ -27,15 +33,28 @@ nav {
 
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+
 .content {
     margin: 0;
-    padding: 15px;
+    display: flexbox;
+    padding: 15px 15px 15px 15px;
 }
 
 .posts-list {
     list-style: none;
+    margin: 0;
+    padding: 10px 0px 10px 15px;
+}
+
+.post-content {
+
+}
+
+.latest-posts {
+    margin: 0;
+}
+
+.title-on-list {
+    margin: 0;
+    text-decoration-color: black;
 }
