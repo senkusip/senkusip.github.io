@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2018/08/20/bananas.html</loc>
-<lastmod>2018-08-20T00:00:00-05:00</lastmod>
+<loc>http://localhost:4000/2026/02/22/ecuaciones-primer-grado-con-una-inc%C3%B3gnita.html</loc>
+<lastmod>2026-02-22T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about.html</loc>
@@ -11,10 +11,9 @@
 <loc>http://localhost:4000/blog.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/formularios.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/formularios.html</loc>
-<lastmod>2026-02-17T08:45:42-06:00</lastmod>
+<loc>http://localhost:4000/</loc>
 </url>
 </urlset>
