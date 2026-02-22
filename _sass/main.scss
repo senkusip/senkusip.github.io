@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
 #nav-links {
     text-decoration: none;
     color:black;
@@ -45,16 +50,16 @@ nav {
     margin: 0;
     padding: 10px 0px 10px 15px;
 }
-
-.post-content {
-
+#about-page {
+    margin: 0;
 }
 
-.latest-posts {
+.subtitle {
     margin: 0;
 }
 
 .title-on-list {
     margin: 0;
+    text-decoration: underline;
     text-decoration-color: black;
 }
