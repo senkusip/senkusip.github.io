@@ -2,4 +2,5 @@
 layout: post
 author: senkusip
 ---
-\$$a+b=c$$ hola
+\textbf{Igualdad} es la expresión de que dos cantidades o expresiones algebraicas tienen el mismo valor.
+\[$$a=b+c$$ $$3x^2=4x+15$$]
