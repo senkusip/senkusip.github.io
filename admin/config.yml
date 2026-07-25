@@ -1,0 +1,35 @@
+backend:
+  name: github
+  repo: senkusip/senkusip.github.io
+  branch: main
+  # Reemplaza esta URL por la de tu worker de autenticación (ver instrucciones de configuración).
+  base_url: https://REEMPLAZAR-CON-TU-WORKER.workers.dev
+  auth_endpoint: auth
+
+site_url: https://senkusip.github.io
+display_url: https://senkusip.github.io
+
+locale: es
+
+media_folder: assets/pdfs
+public_folder: /assets/pdfs
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: _posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: Layout, name: layout, widget: hidden, default: post }
+      - { label: Título, name: title, widget: string }
+      - { label: Autor, name: author, widget: string, default: senkusip }
+      - { label: Fecha, name: date, widget: datetime, default: "{{now}}" }
+      - label: PDF adjunto
+        name: pdf
+        widget: file
+        required: false
+        hint: Sube un PDF para mostrar una vista previa al final del post.
+      - { label: Cuerpo, name: body, widget: markdown }

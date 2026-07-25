@@ -5,3 +5,11 @@ layout: default
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
 <div class="post-content">{{ content }}</div>
+
+{% if page.pdf %}
+  <div class="post-pdf">
+    <h2 class="subtitle">Documento PDF</h2>
+    <iframe class="pdf-preview" src="{{ page.pdf | relative_url }}" title="Vista previa en PDF de {{ page.title }}"></iframe>
+    <p><a href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener">Abrir PDF en una pestaña nueva</a></p>
+  </div>
+{% endif %}
